@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Romeo Grill Korce — Gjiro, Grill & Fast Food</title>
+  <meta name="description" content="Romeo Grill ne Korce — gjiro, pjata grilli, fast food me cmime te qarta. Hap menune, gjej produktin dhe porosit lehte. I hapur 09:00 - 23:00.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <a href="/" class="brand">
+      <span class="brand-title" id="brandTitle">ROMEO GRILL</span>
+      <span class="brand-sub" id="brandSub">Real food. Real grill.</span>
+    </a>
+    <button class="menu-toggle" id="menuToggle">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">Rreth Nesh</a>
+      <a href="#featured">Pjatat Kryesore</a>
+      <a href="/menu.html">Menu</a>
+      <a href="#contact">Kontakt</a>
+      
+    </nav>
+    
+  </div>
+</header>
+
+<section class="hero">
+  <img src="images/storefront.jpeg" alt="Romeo Grill" class="hero-bg" id="heroImage">
+  <div class="hero-overlay"></div>
+  <div class="container hero-content">
+    <div class="hero-copy">
+      <span class="badge" id="heroBadge">Fast Food • Grill • Gjiro</span>
+      <h1 id="heroTitle">Romeo Grill</h1>
+      <p id="heroDescription">Grill, gjiro dhe pjata te nxehta ne zemer te Korces. Menu e ndare qarte me cmime te hapura — zgjedh kategorine, kliko produktin dhe shiko perberesit e plote.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="/menu.html">Hap Menune</a>
+        <a class="btn btn-secondary" id="heroMapBtn" href="https://maps.app.goo.gl/T1pQtM8KqkLht8pB6" target="_blank" rel="noopener">Hap Lokacionin</a>
+      </div>
+      <div class="hero-points">
+        <div class="point">📍 Korce, Albania</div>
+        <div class="point">🕐 09:00 – 23:00</div>
+        <div class="point">🔥 Grill & Gjiro</div>
+        <div class="point">📱 WhatsApp: 0697708333</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="container split-grid">
+    <div>
+      <span class="section-tag" id="aboutTag">Menu e qarte, jo rremuje</span>
+      <h2 id="aboutTitle">Kategorite hapen thjesht, artikujt shihen qarte, detajet dalin me nje klikim.</h2>
+      <p class="lead" id="aboutLead">Tek Romeo Grill gjeni gjiro, pjata grilli dhe shtesa me cmime te dukshme. Zgjidhni kategorine, shikoni artikujt dhe klikoni produktin per te pare foton, perberesit dhe detajet e plota.</p>
+      <p id="aboutDescription">Jemi te hapur cdo dite 09:00 – 23:00. Mund te kontaktoni direkt ne WhatsApp ose telefon per informacion shtese. Lokacioni yne eshte lehtesisht i arritshem ne qender te Korces.</p>
+    </div>
+    <div class="glass-card">
+      <h3>Pse Romeo Grill?</h3>
+      <p>Cmime transparente, produkte te fresketa dhe menu e organizuar qarte. Gjiro me mish pule, qofte ose derri — pjata te nxehta per dreke e darke — dhe pije freskuese per cdo kohe.</p>
+    </div>
+  </div>
+</section>
+
+<section id="featured" class="section section-dark">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="section-tag">Pjatat Kryesore</span>
+        <h2>Gjiro & Pjata — Zgjedhjet Tona</h2>
+      </div>
+      <p>Produktet me te preferuara nga klientet tane. Kliko per te pare foton dhe perberesit.</p>
+    </div>
+    <div class="featured-grid" id="featuredGrid"></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container image-story-grid">
+    <div>
+      <span class="section-tag">Nga kuzhina jone</span>
+      <h2>Cdo pjate, e fresket dhe e nxehte.</h2>
+      <p class="lead">Produktet tona pergatiten me kujdes cdo dite. Shikoni disa nga pjatat tona — pastaj hapni menune dhe zgjidhni te preferuaren tuaj.</p>
+      <a class="btn btn-primary" href="/menu.html" style="margin-top:20px;display:inline-flex;">Shiko Menune e Plote</a>
+    </div>
+    <div class="story-images" id="storyImages"></div>
+  </div>
+</section>
+
+
+
+<section id="contact" class="section">
+  <div class="container split-grid">
+    <div>
+      <span class="section-tag">Na Kontaktoni</span>
+      <h2>Gjeni & Kontaktoni Romeo Grill</h2>
+      <div class="contact-list">
+        <p><strong>📍 Adresa:</strong> <span id="contactAddress">Korce, Albania</span></p>
+        <p><strong>📞 Telefoni:</strong> <a href="tel:0696930010"><span id="contactPhone">0696930010</span></a></p>
+        <p><strong>🕐 Orari:</strong> <span id="contactHours">09:00 - 23:00</span></p>
+        <p><strong>💬 WhatsApp:</strong> <a id="whatsappLinkEl" href="https://wa.me/355696472338" target="_blank" rel="noopener"><span id="contactWhatsapp">0696472338</span></a></p>
+        <p><strong>📷 Instagram:</strong> <a id="instagramLinkEl" href="https://www.instagram.com/romeogrill2024/" target="_blank" rel="noopener"><span id="contactInstagram">@romeogrill2024</span></a></p>
+        <p><strong>Facebook:</strong> <a id="facebookLinkEl" href="https://www.facebook.com/romeo.grill.3/" target="_blank" rel="noopener"><span id="contactFacebook">Romeo Grill</span></a></p>
+        <p><strong>🗺️ Google Maps:</strong> <a id="mapLinkEl" href="https://maps.app.goo.gl/T1pQtM8KqkLht8pB6" target="_blank" rel="noopener">Hap Lokacionin →</a></p>
+      </div>
+    </div>
+    <div class="glass-card">
+      <h3>Na gjeni lehte</h3>
+      <p>Jemi ne qender te Korces, te hapur cdo dite nga ora 09:00 deri 23:00. Per porosi ose informacion, mund te na kontaktoni direkt ne WhatsApp ose telefon.</p>
+      <p style="margin-top:14px;">Kenaqesia juaj eshte prioriteti yne — produktet tona pergatiten te fresketa dhe sherbehen shpejt.</p>
+    </div>
+  </div>
+</section>
+
+<script src="site.js"></script>
+</body>
+</html>

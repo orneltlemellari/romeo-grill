@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Romeo Grill | Admin Login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="login">
+  <div class="login-shell">
+    <div class="login-card">
+      <span class="section-tag">Admin Login</span>
+      <h2>Hyr ne dashboard</h2>
+      <p class="muted">Ky eshte login real per panelin e pronarit.</p>
+      <form id="loginForm">
+        <input class="form-control" id="username" placeholder="Username" autocomplete="username">
+        <input class="form-control" id="password" type="password" placeholder="Password" autocomplete="current-password">
+        <button class="btn btn-primary full" type="submit">Hyr</button>
+      </form>
+      <p id="loginError" style="color:#ff9c9c;"></p>
+    </div>
+  </div>
+  <script src="admin.js"></script>
+</body>
+</html>
